@@ -1,0 +1,38 @@
+<%- include("partials/header") -%>
+
+  <main class="top-container">
+    <h1>Daily Update</h1>
+  </main>
+  <main class="middle-container">
+    <h2><%= date %></h2>
+    <form class="form-signin" action="/" method="post">
+      <div class="card">
+        <div class="card-header">
+          <img class="mb-4" src="images/LG_logo.jpg" alt="" width="115" height="50">
+        </div>
+        <div class="card-body">
+          <h1 class="h3 mb-3 fw-normal" id="h3">UPDATE YOUR INFO</h1>
+          <div class="form-floating mb-3">
+            <input  name="name" type="text" class="form-control" id="floatingInput" autocomplete="off" placeholder="">
+            <label for="floatingInput">Name</label>
+          </div>
+          <div class="form-floating">
+            <select  name="asa" class="form-select middle" id="floatingSelect" aria-label="Floating label select example">
+              <option selected></option>
+              <option value="Green">Green</option>
+              <option value="Red">Red</option>
+              <option value="Orange">Orange</option>
+            </select>
+            <label for="floatingSelect">ASA</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input name="hs" type="text" class="form-control" id="floatingInputBottom" autocomplete="off" placeholder="">
+            <label for="floatingInput">HS</label>
+          </div>
+          <button name="list" class="w-100 btn btn-lg btn-danger" id="btn" type="submit">UPDATE</button>
+        </div>
+        </div>
+    </form>
+  </main>
+
+<%- include("partials/header") -%>

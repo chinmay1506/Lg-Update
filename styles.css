@@ -1,0 +1,85 @@
+html{
+ background-color: #a3d2ca;
+}
+.top-container{
+  width: 100%;
+  position: absolute;
+  background-color: #f7f3e9;
+}
+h1, h2{
+  font-family: Merriweather, sans-serif;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+p{
+  text-align: center;
+  font-size: 30px;
+}
+.btn1{
+  position: relative;
+  left: 500px;
+  bottom: 80px;
+}
+.mb-4{
+  position: relative;
+  top: 10px;
+  left: 90px;
+}
+#h3{
+  font-family: Montserrat, sans-serif;
+}
+.middle-container{
+  background-color: #a3d2ca;
+  padding: 100px 100px 80px;
+}
+.form-signin {
+  font-size: 12px;
+  width: 100%;
+  max-width: 330px;
+  margin: 0 auto;
+}
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+.card-body{
+  margin: 15px;
+}
+#floatingInput{
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: light-grey;
+}
+#floatingSelect{
+  margin-bottom: 8px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: light-grey;
+}
+#floatingInputBottom{
+  margin-bottom: 25px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: light-grey;
+}
+#btn-main{
+  font-family: Montserrat;
+  width: 300px;
+}
+#btn:hover{
+  color: black;
+  background-color: white;
+}
+#db-btn{
+  position: absolute;
+  left: 480px;
+  top: 130px;
+}
+span{
+  display: block;
+  text-align: center;
+}
+.create{
+  text-align: left;
+}
